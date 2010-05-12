@@ -1,0 +1,70 @@
+!background: black
+!foreground: white 
+*background: rgb:00/00/00
+*foreground: rgb:ff/ff/ff
+!*background: grey5
+!*foreground: white
+!*background: rgb:ff/ff/ff
+!*foreground: rgb:00/00/00
+!*background: rgb:00/00/00
+!*background: rgb:10/03/21
+!*font:* 
+!*boldFont:*
+!*font: -*-*-*-*-*-*-8-*-*-*-*-*-*-*
+!*boldFont: -*-*-*-*-*-*-8-*-*-*-*-*-*-*
+!*font: -*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
+!*boldFont: -*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
+!*font: -*-*-*-*-*-*-12-*-*-*-*-*-iso10646-*
+!*boldFont: -*-*-*-*-*-*-12-*-*-*-*-*-iso10646-*
+*faceName:Courier New
+*faceSize:14
+!*faceName:Crisp
+!*faceSize:12
+!*faceName:Luxi Mono
+!*faceSize:8
+!*faceName:Monaco
+!*faceSize:12
+!*faceName:Monospace
+!*faceSize:9
+!*faceName:Terminus
+!*faceSize:8
+*colorMode:on
+*boldMode:off
+!*cursorBlink:true
+!Xft.dpi:        96
+!Xft.antialias:  true
+!Xft.rgba:       rgb
+!Xft.hinting:    true
+!Xft.hintstyle:  hintslight
+
+! {{{ urxvt stuff
+urxvt.scrollBar: false
+urxvt.inheritPixmap: true
+! }}}
+
+! black 
+!*color0:      #222222
+*color0:      #000000
+*color8:      #666666
+! red
+! urxvt*color1:      #9e1828
+*color1:      #118dc2
+*color9:      #cf6171
+! green
+*color2:      #aece92
+*color10:     #c5f779
+! yellow
+*color3:      #968a38
+*color11:     #fff796
+! blue
+*color4:      #71C5F4
+*color12:     #67CDE9
+! magenta
+*color5:      #963c59
+*color13:     #cf9ebe
+! cyan
+*color6:      #418179
+*color14:     #71bebe
+! white
+*color7:      #bebebe
+*color15:      #FFFFFF
