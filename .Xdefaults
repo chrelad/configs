@@ -1,70 +1,129 @@
-!background: black
-!foreground: white 
-*background: rgb:00/00/00
+!*background: white 
+!*foreground: black
+!*background:rgb:ff/ff/ff
+*background:rgb:00/00/00
+!*foreground:black
+!*foreground: black
 *foreground: rgb:ff/ff/ff
-!*background: grey5
-!*foreground: white
-!*background: rgb:ff/ff/ff
-!*foreground: rgb:00/00/00
-!*background: rgb:00/00/00
+!*foreground: rgb:aa/aa/aa
+!*background: white
 !*background: rgb:10/03/21
 !*font:* 
 !*boldFont:*
-!*font: -*-*-*-*-*-*-8-*-*-*-*-*-*-*
-!*boldFont: -*-*-*-*-*-*-8-*-*-*-*-*-*-*
+*font:-*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
+*boldFont:-*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
+!*font:-*-terminal-*-*-*-*-*-*-*-*-*-*-iso8859-*
+!*boldFont:-*-terminal-*-*-*-*-*-*-*-*-*-*-iso8859-*
+!*font: -*-terminus-medium-r-normal-*-10-*-*-*-*-*-*-*
+!*boldFont: -*-terminus-medium-r-normal-*-10-*-*-*-*-*-*-*
+!*font: -*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
+!*boldFont: -*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
 !*font: -*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
 !*boldFont: -*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
 !*font: -*-*-*-*-*-*-12-*-*-*-*-*-iso10646-*
 !*boldFont: -*-*-*-*-*-*-12-*-*-*-*-*-iso10646-*
-*faceName:Courier New
-*faceSize:14
-!*faceName:Crisp
+!*faceName:Bitstream Vera Sans Mono Roman
 !*faceSize:12
+!*faceName:Bitstream Vera Sans Mono:style=bold
+!*faceSize:12
+!*faceName:Terminus
+!*faceSize:10
+!*faceName:Terminal
+!*faceSize:6
+!*faceName:Consolas:style=bold
+!*faceSize:12
+!*faceName:Consolas
+!*faceSize:12
+!*faceName:Consolas
+!*faceSize:18
+!*faceName:Inconsolata
+!*faceSize:14
+!*faceName:Liberation Mono
+!*faceSize:10
+!*faceName:Courier New
+!*faceSize:10
+!*faceName:Fixed
+!*faceSize:10
+!*faceName:Crisp
+!*faceSize:11
 !*faceName:Luxi Mono
 !*faceSize:8
-!*faceName:Monaco
-!*faceSize:12
+!*faceName:Monaco:style=bold
+!*faceSize:9
 !*faceName:Monospace
 !*faceSize:9
 !*faceName:Terminus
+!*faceSize:7
+!URxvt*font:xft:Monaco:pixelsize=16
+!URxvt*termName: xterm
+!URxvt.cursorColor: #bf7979
+!*faceName:Monospace
 !*faceSize:8
-*colorMode:on
-*boldMode:off
+!*faceName:Terminus
+!*faceSize:8
+!*colorMode:off
+!*boldMode:off
+!*wideChars:off
+!*boldColors:off
+!*colorBDMode:off
+!*colorBD:off
 !*cursorBlink:true
-!Xft.dpi:        96
-!Xft.antialias:  true
-!Xft.rgba:       rgb
-!Xft.hinting:    true
-!Xft.hintstyle:  hintslight
 
-! {{{ urxvt stuff
-urxvt.scrollBar: false
-urxvt.inheritPixmap: true
+!*colorMode:false
+!*showBlinkAsBold:false
+!*internalBorder:0
+!*borderWidth:0
+!xterm*vt100*geometry: 80x50
+
+! {{{ Tangoesque theme
+! Black (not tango) + DarkGrey
+!*color0:  #000000
+!*color8:  #555753
+! DarkRed + Red
+!*color1:  #ff6565
+!*color9:  #ff8d8d
+! DarkGreen + Green
+!*color2:  #93d44f
+!*color10: #c8e7a8
+! DarkYellow + Yellow
+!*color3:  #eab93d
+!*color11: #ffc123
+! DarkBlue + Blue
+!*color4:  #204a87
+!*color12: #3465a4
+! DarkMangenta + Mangenta
+!*color5:  #ce5c00
+!*color13: #f57900
+!DarkCyan + Cyan (both not tango)
+!*color6:  #89b6e2
+!*color14: #46a4ff
+! LightGrey + White
+!*color7:  #cccccc
+!*color15: #ffffff
 ! }}}
-
-! black 
-!*color0:      #222222
-*color0:      #000000
-*color8:      #666666
-! red
-! urxvt*color1:      #9e1828
-*color1:      #118dc2
-*color9:      #cf6171
-! green
-*color2:      #aece92
-*color10:     #c5f779
-! yellow
-*color3:      #968a38
-*color11:     #fff796
-! blue
-*color4:      #71C5F4
-*color12:     #67CDE9
-! magenta
-*color5:      #963c59
-*color13:     #cf9ebe
-! cyan
-*color6:      #418179
-*color14:     #71bebe
-! white
-*color7:      #bebebe
-*color15:      #FFFFFF
+! {{{ Tango theme
+! Black
+! color0:  #2E3436
+! color8:  #555753
+! Red
+! color1:  #CC0000
+! color9:  #EF2929
+! Green
+! color2:  #4E9A06
+! color10: #8AE234
+! Yellow
+! color3:  #C4A000
+! color11: #FCE94F
+! Blue
+! color4:  #3465A4
+! color12: #729FCF
+! Purple
+! color5:  #75507B
+! color13: #AD7FA8
+! Cyan
+! color6:  #06989A
+! color14: #34E2E2
+! White
+! color7:  #D3D7CF
+! color15: #EEEEEC
+! }}}
